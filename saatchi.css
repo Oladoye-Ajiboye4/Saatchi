@@ -1,0 +1,245 @@
+body {
+    background-color: #FCFBF9;
+    overflow-x: hidden !important;
+}
+
+.nav-content {
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.search-container {
+    background-color: #F1F1F1;
+    border-radius: 10px;
+}
+
+nav {
+    background-color: #FCFBF9;
+}
+
+.dropdown-menu {
+    left: 0 !important;
+    right: 0 !important;
+    width: 100% !important;
+}
+
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+
+    animation: 1.3s showDropdown;
+}
+
+.dropdown:hover {
+    border-bottom: 1px solid rgba(203, 133, 4, 0.995);
+}
+
+.dropdown-left ul {
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+.dropdown-left h5{
+    font-size: 16px !important;
+}
+
+.dropdown-subNav:hover {
+    color: rgba(203, 133, 4, 0.995) !important;
+
+}
+
+.featureLinkNav {
+    text-underline-offset: 6px;
+    text-decoration: underline;
+
+}
+
+.featureLinkNav:hover {
+    color: rgba(203, 133, 4, 0.995) !important;
+}
+
+.buttonNav {
+    bottom: 60%;
+    right: 0;
+    left: 0px;
+}
+
+.buttonNav button {
+    width: 50px;
+    height: 50px;
+}
+
+.btn-sect {
+    width: 100px;
+    height: 50px;
+    box-sizing: border-box;
+    font-size: 10px !important;
+    font-display: block;
+    background-color: white;
+
+}
+
+.btnSectContainer {
+    overflow-x: auto;
+
+
+}
+
+.btn-sect:hover,
+.categoryBtn:hover {
+    background-color: #F8F5EE !important;
+    color: black;
+}
+
+.whyShop,
+.artAdvisory {
+    background-color: #f1f1f1;
+}
+
+.risingStarCard .card-img-top {
+    width: 100%;
+    height: 350px;
+    background-color: #f1f1f1;
+
+}
+
+.risingStarCard {
+    width: 100%;
+    background-color: transparent;
+}
+
+.toptile-card,
+.card {
+    background-color: transparent;
+}
+
+.modal {
+    background-color: rgb(37, 36, 36, 0.3);
+    background-blend-mode: overlay;
+
+}
+
+.livingArtImg {
+    width: 100% !important;
+    height: 250px;
+}
+
+ul {
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+
+.footer-link {
+    font-size: 14px;
+}
+
+.whyShopCard {
+    background-color: white;
+}
+
+footer {
+    background-color: #1e1e1e;
+}
+
+@keyframes showDropdown {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 991px) {
+    .search-container {
+        background-color: transparent;
+        font-size: 30px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        width: 60px;
+    }
+
+    .dropdown-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .carousel-caption {
+        height: 100px;
+    }
+
+    .whyShopHeader {
+        width: 100% !important;
+    }
+
+
+    .dropdown:hover {
+        position: static;
+
+    }
+
+    .dropdown-menu {
+        display: none;
+    }
+
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+
+    .navbar-nav .dropdown-menu {
+        width: 100% !important;
+        background-color: #fff;
+        border: 1px solid rgba(0, 0, 0, .15);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+        padding: 12px;
+        border-radius: 8px;
+    }
+
+    .navbar-nav .row {
+        flex-direction: column !important;
+    }
+
+    .navbar-nav .col-1,
+    .navbar-nav .col-2,
+    .navbar-nav .col-3 {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .curator {
+        overflow-x: auto;
+    }
+
+    .livingArtImg {
+        width: 75% !important;
+    }
+
+    .categoryHeadingFooter {
+        text-align: left !important;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        font-size: 12px;
+
+    }
+
+    .categorySections {
+        overflow-x: auto;
+        font-size: 12px;
+    }
+
+
+}
+
+@media (max-width: 480px){
+    .footer-link li{
+        font-size: 11px;
+    }
+}
