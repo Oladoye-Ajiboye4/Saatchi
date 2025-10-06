@@ -138,8 +138,16 @@ ul {
     background-color: white;
 }
 
+.bi-search{
+        font-size: 24px;
+    }
+
 footer {
     background-color: #1e1e1e;
+}
+
+.advisoryImg{
+    width: 500px !important;
 }
 
 @keyframes showDropdown {
@@ -235,11 +243,34 @@ footer {
         font-size: 12px;
     }
 
+    .artAdvisoryHeading{
+        text-align: center;
+    }
 
 }
 
-@media (max-width: 480px){
+@media (max-width: 500px){
     .footer-link li{
         font-size: 11px;
+    }
+
+    .navbar-brand{
+        width: 10px !important;
+    }
+
+    .carousel-item{
+        height: 40vh;
+    }
+    .carousel-item img{
+        height: 100%;
+    }
+    
+    .carousel-caption{
+        height:130px;
+        padding: 10px;
+    }
+
+    .sectionHeading{
+        font-size: 23px;
     }
 }
